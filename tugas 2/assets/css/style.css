@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start navbar */
+.navbar-brand {
+    color: #27c499;
+}
+
+.navbar-brand:hover {
+    color: #27c499;
+}
+
+.navbar-nav a {
+    color: #000;
+}
+
+.navbar-nav a:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-nav a:visited {
+    color: #000;
+}
+
+/* end navbar */
+
+/* start home */
+.banner img {
+    filter: brightness(50%);
+}
+
+.banner {
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+.txt-div {
+    padding-top: 20rem;
+    top: 0;
+    left: 1;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.txt-div p {
+    max-width: 95%;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 2em;
+}
+
+/* end home */
+
+/* start divider */
+#divider {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#divider .fa-solid {
+    color: #27c499;
+    font-size: 60px;
+}
+
+#divider h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* end divider */
+
+/* start feature */
+#feature {
+    background: #f8f8f8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#feature p {
+    padding-top: 10px;
+}
+
+#feature span {
+    float: left;
+}
+
+#feature .fa-solid {
+    background: #27c499;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* end feature */
+
+/* start feature1 */
+#feature1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#feature1 p {
+    padding-top: 10px;
+}
+
+#feature1 span {
+    float: left;
+}
+
+#feature1 .fa-solid {
+    background: #27c499;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* end feature1 */
+
+/* start footer */
+footer {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+/* end footer */
+
+/* start responsive */
+@media screen and (max-width: 991px) {
+    .txt-div {
+        padding-top: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .txt-div {
+        padding-top: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .txt-div{
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+/* end responsive */
